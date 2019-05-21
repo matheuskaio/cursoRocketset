@@ -1,0 +1,10 @@
+express -> Para rotas e view
+
+nodemon -D -> Para deixar o servidor rodando na hora de alterações de codigo e o
+D maiusculo que indica que é uma dependencia de desenvolvedor.
+1 - Dentro do arquivo package.json, adicionar
+"scritps": {
+  "start": "nodemon index.js"
+}
+2 - No terminal usa agora "yarn start"
+
